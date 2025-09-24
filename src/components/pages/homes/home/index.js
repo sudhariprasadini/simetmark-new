@@ -14,24 +14,24 @@ import Blog from "./blog";
 import FooterOne from "../../../layout/footers/footer-one";
 
 const HomeOne = () => {
-    return (
-        <div>
-            <SEO pageTitle='Construction Company' />
-            <HeaderOne />
-            <BannerOne />
-            <About />
-            <TextSlide />
-            <Services />
-            <Video />
-            <ChooseUs />
-            <Portfolio />
-            <CounterUp />
-            <Experience />
-            <Testimonial /> 
-            <Blog /> 
-            <FooterOne />
-        </div>
-    );
+  return (
+    <div>
+      <SEO pageTitle="" />
+      <HeaderOne />
+      <BannerOne />
+      <About />
+      <TextSlide />
+      <Services />
+      <Video />
+      <ChooseUs />
+      <Portfolio />
+      <CounterUp />
+      <Experience />
+      <Testimonial />
+      <Blog />
+      <FooterOne />
+    </div>
+  );
 };
 
 export default HomeOne;
