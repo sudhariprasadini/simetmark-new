@@ -41,7 +41,7 @@ const FooterFour = () => {
                                             <h4>Address</h4>
                                             <div className="footer__four-widget-address">
                                                 <h6><Link to="https://www.google.com/maps">3891 Ranch view Richardson, California 62639</Link></h6>
-                                                <h4><Link to="tel:+123%20(256)%20568%2058">+123 (256) 568 58</Link></h4>
+                                                <h4><Link to="tel:+123%20(256)%20568%2058">+94717127987</Link></h4>
                                             </div>
                                         </div>
                                     </div>
