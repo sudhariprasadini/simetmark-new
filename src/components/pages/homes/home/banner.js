@@ -18,7 +18,7 @@ const BannerOne = () => {
               <h1
                 className="wow fadeInRight"
                 data-wow-delay=".4s"
-                style={{ color: "#fff", fontSize: "90px" }} // Change fontSize here
+                style={{ color: "#fff" }} // Change fontSize here
               >
                 Precision Engineering for a Stronger Tomorrow
               </h1>
