@@ -131,10 +131,6 @@ const PricingPlansMain = () => {
   ];
 
   // Inline styles for immediate application
-  const containerStyle = {
-    padding: "60px 0",
-    overflow: "hidden",
-  };
 
   const cardStyle = {
     flex: "0 0 400px",
@@ -287,9 +283,18 @@ const PricingPlansMain = () => {
           .tech-scroll::-webkit-scrollbar-thumb:hover {
             background: #EC2025;
           }
+          .responsive-container {
+            padding: 60px 100px !important;
+            overflow: hidden;
+          }
+          @media (max-width: 768px) {
+            .responsive-container {
+              padding: 60px 20px !important;
+            }
+          }
         `}
       </style>
-      <div style={containerStyle}>
+      <div className="responsive-container">
         <div className="container-fluid">
           <div style={carouselContainerStyle}>
             <div
