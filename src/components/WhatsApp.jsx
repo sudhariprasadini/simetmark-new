@@ -7,7 +7,7 @@ const WhatsApp = () => {
   const [open, setOpen] = useState(false);
 
   // Configure for Simetmark (Pvt) Ltd - construction/building business
-  const phoneNumber = "12325656858"; // Based on site contact info: +123 (256) 568 58
+  const phoneNumber = "+94717127987"; // Based on site contact info: +94717127987
   const message = encodeURIComponent(
     "Hello! 🏗️ I'm interested in Simetmark's construction and building solutions. How can you help me?"
   );
