@@ -38,11 +38,11 @@ const FooterThree = () => {
                   </div>
                   <div className="col-lg-3 col-sm-6 sm-mt-30">
                     <div className="footer__one-widget address">
-                      <h4>Address</h4>
+                      <h4>Email Address</h4>
                       <div className="footer__one-widget-address">
                         <h6>
-                          <Link to="https://www.google.com/maps">
-                            3891 Ranch view Richardson, California 62639
+                          <Link to="mailto:info@simetmark.lk">
+                            info@simetmark.lk
                           </Link>
                         </h6>
                         <h4>

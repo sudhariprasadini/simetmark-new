@@ -45,8 +45,8 @@ const ContactMain = () => {
                     <div className="contact__area-left-contact-item-content">
                       <span>Email Address:</span>
                       <h6>
-                        <Link to="mailto:needhelp@gmail.com">
-                          needhelp@gmail.com
+                        <Link to="mailto:info@simetmark.lk">
+                          info@simetmark.lk
                         </Link>
                       </h6>
                     </div>

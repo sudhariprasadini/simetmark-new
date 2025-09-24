@@ -42,7 +42,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
             <div className="header__area-menubar-right-sidebar-popup-contact-item-content">
               <span>Email Address:</span>
               <h6>
-                <Link to="mailto:needhelp@gmail.com">needhelp@gmail.com</Link>
+                <Link to="mailto:info@simetmark.lk">info@simetmark.lk</Link>
               </h6>
             </div>
           </div>
