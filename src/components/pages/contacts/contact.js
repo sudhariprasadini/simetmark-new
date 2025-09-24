@@ -51,7 +51,7 @@ const ContactMain = () => {
                       </h6>
                     </div>
                   </div>
-                  <div className="contact__area-left-contact-item">
+                  {/* <div className="contact__area-left-contact-item">
                     <div className="contact__area-left-contact-item-icon">
                       <i className="flaticon-location-1"></i>
                     </div>
@@ -63,7 +63,7 @@ const ContactMain = () => {
                         </Link>
                       </h6>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

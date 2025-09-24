@@ -46,7 +46,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
               </h6>
             </div>
           </div>
-          <div className="header__area-menubar-right-sidebar-popup-contact-item">
+          {/* <div className="header__area-menubar-right-sidebar-popup-contact-item">
             <div className="header__area-menubar-right-sidebar-popup-contact-item-icon">
               <i className="flaticon-location-1"></i>
             </div>
@@ -58,7 +58,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
                 </Link>
               </h6>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="header__area-menubar-right-sidebar-popup-social">
           <Social />

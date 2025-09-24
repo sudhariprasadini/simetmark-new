@@ -119,13 +119,15 @@ const FooterTwo = () => {
             <div className="col-lg-12">
               <div className="copyright__area-content t-center">
                 <p>
-                  Copyright 2025 – All Rights Reserved By{" "}
-                  <Link
+                  {/* Copyright 2025 – All Rights Reserved By{" "} */}
+                  2025 Synexis Technologies Copyright All rights
+                  reserved @ Simetmark
+                  {/* <Link
                     to="https://themeforest.net/user/wpcodify"
                     target="_blank"
                   >
                     wpCodify
-                  </Link>
+                  </Link> */}
                 </p>
               </div>
             </div>
