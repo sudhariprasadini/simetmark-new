@@ -28,7 +28,7 @@ const ResponsiveMenu = () => {
           <Link to="/services">Services</Link>
         </li>
         <li>
-          <Link to="/pricing-plans">Technologies</Link>
+          <Link to="/technologies">Technologies</Link>
         </li>
         <li>
           <Link to="/history">Industries</Link>

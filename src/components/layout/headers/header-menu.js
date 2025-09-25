@@ -21,7 +21,7 @@ const MainMenu = () => {
           </Link>
         </li>
         <li>
-          <Link to="/pricing-plans" style={{ color: "#fff" }}>
+          <Link to="/technologies" style={{ color: "#fff" }}>
             Technologies
           </Link>
         </li>
