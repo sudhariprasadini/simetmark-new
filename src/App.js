@@ -42,7 +42,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeOne />} />
           <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/history" element={<History />} />
+          <Route path="/industries" element={<History />} />
           <Route path="*" element={<ErrorPage />} />
           <Route path="/services" element={<ServicePage />} />
           <Route path="/services/:id" element={<ServicesDetails />} />

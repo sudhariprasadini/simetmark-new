@@ -26,7 +26,7 @@ const MainMenu = () => {
           </Link>
         </li>
         <li>
-          <Link to="/history" style={{ color: "#fff" }}>
+          <Link to="/industries" style={{ color: "#fff" }}>
             Industries
           </Link>
         </li>
