@@ -46,11 +46,11 @@ const PricingPlansMain = () => {
         "External/ID Turning",
         "Facing and Contour Machining",
         "Grooving and Parting",
-        "Boring (up to 1050 mm height)",
+        "Handles large-diameter components with precision",
+        // "Hole Drilling (with turret or live tooling)",
+        // "Boring (up to 1050 mm height)",
         // "Thread Cutting (internal & external)",
         // "Taper and Step Turning",
-        // "Hole Drilling (with turret or live tooling)",
-        // "Handles large-diameter components with precision",
       ],
       industries: [
         "Energy",
@@ -98,7 +98,7 @@ const PricingPlansMain = () => {
         "Thin slotting & keyways",
         "Punch & die manufacturing",
         "Gear or spline profiles",
-        "Micro-component machining (aerospace, electronics)",
+        "Accuracy and Precision",
       ],
       industries: [
         "Aerospace",
@@ -117,9 +117,9 @@ const PricingPlansMain = () => {
         "A CNC-controlled flame cutting system designed for large-scale steel plate cutting. Provides efficient, cost-effective solutions for heavy structural and industrial fabrication.",
       capabilities: [
         "Cutting large steel sheets ",
-        "Capable of cutting very thick steel economically",
-        "Multiple torch/nesting programs for bulk production",
-        "Structural and machinery component preparation",
+        "Speed and Productivity",
+        "Accuracy and Precision",
+        "Bevel cutting for weld prep",
       ],
       industries: [
         "Heavy Engineering",
