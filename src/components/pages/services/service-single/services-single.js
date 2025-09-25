@@ -30,28 +30,25 @@ const ServicesSingleMain = ({ singleData }) => {
                 </div>
                 <div
                   className="all__sidebar-item-help mb-25"
-                  style={{ backgroundImage: `url(${ctaImage})` }}
+                  // style={{ backgroundImage: `url(${ctaImage})` }}
                 >
-                  <h3>Ready for Your Next Construction?</h3>
+                  <h3 style={{ color: "#000" }}>
+                    Ready for Your Next Construction?
+                  </h3>
                   <Link className="build_button mt-20" to="/contact-us">
                     Get an Advice<i className="flaticon-right-up"></i>
                   </Link>
                 </div>
                 <div className="all__sidebar-item">
-                  <h4>Materials We Machine</h4>
+                  <h4 style={{ color: "#000" }}>Materials We Machine</h4>
                   <div className="all__sidebar-item-download">
                     <ul>
                       <li>Carbon steels (AISI/EN grades)</li>
-                      <li>
-                        Stainless steels (austenitic, martensitic, duplex)
-                      </li>
+                      <li>Stainless steels</li>
                       <li>Cast iron (grey, ductile)</li>
                       <li>Aluminum alloys (6061, 7075, etc.)</li>
                       <li>Copper, brass, bronze</li>
-                      <li>
-                        Tool steels and hardened steels (for EDM & tool
-                        components)
-                      </li>
+                      <li>Tool steels and hardened steels</li>
                       <li>
                         Titanium and nickel alloys (Inconel) — with suitable
                         tooling & strategies
