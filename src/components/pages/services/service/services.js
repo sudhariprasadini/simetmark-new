@@ -73,41 +73,31 @@ const ServicesMain = () => {
               {servicesData?.map((data, id) => (
                 <SwiperSlide key={id}>
                   <Link to={`/services/${data.id}`}>
-                    <div
-                      className="services__one-item"
-                      style={{
-                        backgroundImage: `url(${data.image})`,
-                        backgroundSize: "cover",
-                        backgroundPosition: "center",
-                      }}
-                    >
-                      <div>
-                        <h4
+                    <div className="services__one-item">
+                      <img
+                        src={data.image}
+                        alt={data.title}
+                        style={{
+                          width: "100%",
+                          height: "200px",
+                          objectFit: "cover",
+                          borderRadius: "8px 8px 0 0",
+                        }}
+                      />
+                      <div style={{ padding: "20px" }}>
+                        <h4 style={{ margin: "0 0 10px 0", fontSize: "24px" }}>
+                          {data.title}
+                        </h4>
+                        <Link
+                          to={`/services/${data.id}`}
                           style={{
-                            padding: "10px",
-                            backgroundColor: "rgba(0, 0, 0, 0.6)",
-                            borderRadius: "8px",
-                            height: "140px",
-                            marginTop: "210px",
-                            fontSize: "32px",
-                            color: "#fff",
-                            hover: { color: "#9D1010" },
-                            marginLeft: "10px",
+                            fontSize: "16px",
+                            color: "#9D1010",
+                            textDecoration: "none",
                           }}
                         >
-                          <Link to={`/services/${data.id}`}>{data.title}</Link>
-                          <br></br>
-                          <Link
-                            // className="more_btn"
-                            to={`/services/${data.id}`}
-                            style={{
-                              fontSize: "16px",
-                              paddingTop: "35px",
-                            }}
-                          >
-                            Read More <i className="flaticon-right-up"></i>
-                          </Link>
-                        </h4>
+                          Read More <i className="flaticon-right-up"></i>
+                        </Link>
                       </div>
                     </div>
                   </Link>
