@@ -29,8 +29,13 @@ const ServicesSingleMain = ({ singleData }) => {
                   </div>
                 </div>
                 <div
-                  className="all__sidebar-item-help mb-25"
-                  // style={{ backgroundImage: `url(${ctaImage})` }}
+                  style={{
+                    padding: "20px",
+                    border: "1px solid #000",
+                    marginBottom: "25px",
+                    borderRadius: "8px",
+                    backgroundColor: "#fff",
+                  }}
                 >
                   <h3 style={{ color: "#000" }}>
                     Ready for Your Next Construction?
