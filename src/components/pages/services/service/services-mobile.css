@@ -1,0 +1,76 @@
+/* Mobile styles for services page */
+@media (max-width: 768px) {
+  .services__one .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    max-width: 100% !important;
+  }
+
+  .services__one-item {
+    width: calc(100vw - 40px) !important;
+    max-width: 280px !important;
+    margin: 0 auto !important;
+  }
+
+  .services__one .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .services__one .col-xl-12 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  /* Center the swiper container */
+  .swiper {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  /* Center each swiper slide */
+  .swiper-slide {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .services__one-item {
+    width: calc(100vw - 30px) !important;
+    max-width: 260px !important;
+    margin: 0 auto !important;
+  }
+
+  .services__one .container {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .services__one .col-xl-12 {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  /* Center the swiper container */
+  .swiper {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  /* Center each swiper slide */
+  .swiper-slide {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  /* Adjust the content box inside service items */
+  .services__one-item h4 {
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+    padding: 6px !important;
+    font-size: 20px !important;
+  }
+}
