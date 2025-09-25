@@ -75,7 +75,14 @@ const Portfolio = () => {
                 <SwiperSlide key={id}>
                   <div className="portfolio__one-item">
                     <img src={data.image} alt="image" />
-                    <div className="portfolio__one-item-content">
+                    <div
+                      className="portfolio__one-item-content"
+                      style={{
+                        color: "#fff",
+                        fontSize: "2rem",
+                        fontWeight: "bold",
+                      }}
+                    >
                       {data.title}
                     </div>
                   </div>

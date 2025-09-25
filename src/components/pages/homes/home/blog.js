@@ -10,7 +10,7 @@ const Blog = () => {
           <div className="col-xl-12">
             <div className="blog__one-title t-center">
               <span className="subtitle wow fadeInLeft" data-wow-delay=".4s">
-                News & Blog
+                projects
               </span>
               <h2 className="wow fadeInRight" data-wow-delay=".6s">
                 Our Projects
