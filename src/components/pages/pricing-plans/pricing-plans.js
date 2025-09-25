@@ -302,7 +302,7 @@ const PricingPlansMain = () => {
               style={{
                 position: "absolute",
                 right: "20px",
-                top: "20px",
+                bottom: "20px",
                 zIndex: 10,
               }}
             >
