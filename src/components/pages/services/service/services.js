@@ -85,15 +85,17 @@ const ServicesMain = () => {
                         }}
                       />
                       <div style={{ padding: "20px" }}>
-                        <h4 style={{ margin: "0 0 10px 0", fontSize: "24px" }}>
+                        <h4 style={{ margin: "0 0 10px 0", fontSize: "30px" }}>
                           {data.title}
                         </h4>
                         <Link
                           to={`/services/${data.id}`}
                           style={{
-                            fontSize: "16px",
+                            fontSize: "18px",
                             color: "#9D1010",
                             textDecoration: "none",
+                            fontWeight: "600",
+                            letterSpacing: "0.5px",
                           }}
                         >
                           Read More <i className="flaticon-right-up"></i>

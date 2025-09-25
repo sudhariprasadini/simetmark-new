@@ -7166,9 +7166,6 @@ Responsive Menu Css
 .services__one-item .more_btn {
   margin-top: 25px;
 }
-.services__one-item:hover {
-  background: var(--color-1);
-}
 .services__one-item:hover .more_btn,
 .services__one-item:hover > i {
   color: var(--primary-color-1);
